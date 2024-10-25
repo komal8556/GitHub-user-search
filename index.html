@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub user search app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="changeTheme.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/c8cef9428d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body >
+    <main class="main-body">
+      <div class="container">
+        <img
+          id="moon-icon"
+          class="themeIcon hidden"
+          src="moon.svg"
+          width="38px"
+        />
+        <img id="sun-icon" class="themeIcon" src="sun.svg" width="42px" />
+        <div class="card-header">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Search username..."
+          />
+          <button id="search-btn">Search</button>
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+            <h3 class="username">Komal8556</h3>
+            <div class="name-info d-flex">
+              <p class="name">Komal mishra</p>
+              <span class="join-details">Joined 24 Jan 2023</span>
+            </div>
+            <p class="bio">This profile has no bio</p>
+            <div class="row repo-info d-flex">
+              <div class="col">
+                <h6 class="repos-header">Repos</h6>
+                <p class="repo-count">8</p>
+              </div>
+              <div class="col">
+                <h6 class="followers-header">followers</h6>
+                <p class="followers-count">12</p>
+              </div>
+              <div class="col">
+                <h6 class="following-header">following</h6>
+                <p class="following-count">4</p>
+              </div>
+            </div>
+            <div class="d-flex location-info">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="location">New Delhi, India</p>
+            </div>
+          </div>
+          <img src="/img.jpg" alt="user image" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
